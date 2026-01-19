@@ -8,6 +8,9 @@
 Avert locks your screen the instant you look away.
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![Code of Conduct](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+[![GitHub issues](https://img.shields.io/github/issues/AutoTasksAI/avert)](https://github.com/AutoTasksAI/avert/issues)
+[![GitHub stars](https://img.shields.io/github/stars/AutoTasksAI/avert?style=social)](https://github.com/AutoTasksAI/avert/stargazers)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue)](https://getavert.app)
 [![Downloads](https://img.shields.io/badge/Downloads-10K+-green)](https://getavert.app)
 
@@ -68,6 +71,41 @@ Avert is the world's first AI-powered screen privacy tool that watches your back
 2. Run the installer (Windows 10/11)
 3. Allow webcam access
 4. You're protected!
+
+5. ### 🛠️ For Developers
+
+Want to contribute or run from source?
+
+```bash
+# Clone the repository
+git clone https://github.com/AutoTasksAI/avert.git
+cd avert
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the free version
+python avert_free.py
+
+# Test your camera (optional)
+python test_camera.py
+```
+
+**Requirements:**
+- Python 3.8 or higher
+- Webcam access
+- Windows 10/11 (for screen locking functionality)
+
+**Project Structure:**
+```
+avert/
+├── avert_free.py              # Main application (free version)
+├── test_camera.py             # Camera testing utility
+├── requirements.txt           # Python dependencies
+├── haarcascade_*.xml          # OpenCV face detection models
+├── decoy.jpg                  # Default decoy screen image
+└── avert_logo.png             # Application logo
+```
 
 ## 🔐 Security & Privacy
 
