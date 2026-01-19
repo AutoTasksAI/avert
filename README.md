@@ -15,6 +15,8 @@ Avert locks your screen the instant you look away.
 
 </div>
 
+![Avert Demo](Avert_demo.gif)
+
 ---
 
 ## 🎯 What is Avert?
