@@ -12,7 +12,7 @@ Avert locks your screen the instant you look away.
 [![GitHub issues](https://img.shields.io/github/issues/AutoTasksAI/avert)](https://github.com/AutoTasksAI/avert/issues)
 [![GitHub stars](https://img.shields.io/github/stars/AutoTasksAI/avert?style=social)](https://github.com/AutoTasksAI/avert/stargazers)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue)](https://getavert.app)
-[![Downloads](https://img.shields.io/badge/Downloads-10K+-green)](https://getavert.app)
+
 
 [Download Free](https://getavert.app) • [Get Pro](https://getavert.app) • [Report Issue](https://github.com/AutoTasksAI/avert/issues)
 
